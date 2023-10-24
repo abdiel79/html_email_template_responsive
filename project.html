@@ -22,7 +22,28 @@
          border: 0;
       }
 		@media screen and (max-width: 599.98px) {
-
+         .two-columns .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+         }
+         img.two-col-img {
+            width: 300px!important;
+            max-width: 300px!important;
+         }
+         .two-third-columns .padding.firts {
+            padding-bottom: 0!important;
+         }
+         .two-third-columns .padding.last {
+            padding-top: 0!important;
+         }
+         img.one-third-col-img {
+            width: 200px!important;
+            max-width: 200px!important;
+         }
+         .two-third-columns .content {
+            text-align: center!important
+         }
+      
       }
       @media screen and (max-width: 399.98px) {
 
@@ -184,7 +205,7 @@
                <td style="padding: 35px 0 30px 0;">
                   <table wigth="100%" style="border-spacing: 0;" role="presentation">
                      <tr>
-                        <td class="two-columns" style="padding: 0;font-size: 0;text-align: center;">
+                        <td class="two-columns" style="padding: 50px 0;font-size: 0;text-align: center;">
 
                            <!--[if (gte mso 9)|(IE)]>
                            <table width="100%" style="border-spacing: 0;" role="presentation">
@@ -200,7 +221,7 @@
                                     <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
                                        <tr>
                                           <td>
-                                             <a href="https://example.com" target="_blank"> <img src="https://i.ibb.co/Tmg3qbV/man-teal.jpg" alt="" width="260" style="max-width: 260px; border-radius: 8px;"></a>
+                                             <a href="https://example.com" target="_blank"> <img class="two-col-img" src="https://i.ibb.co/Tmg3qbV/man-teal.jpg" alt="" width="260" style="max-width: 260px; border-radius: 8px;"></a>
                                           </td>
                                        </tr>
                                        <tr>
@@ -246,7 +267,7 @@
                                     <table class="content" style="border-spacing: 0; text-align: left;" role="presentation">
                                        <tr>
                                           <td>
-                                             <a href="https://example.com" target="_blank"> <img src="https://i.ibb.co/nQn29Sg/woman-teal.jpg" alt="" width="260" style="max-width: 260px; border-radius: 8px;"></a>
+                                             <a href="https://example.com" target="_blank"> <img class="two-col-img" src="https://i.ibb.co/nQn29Sg/woman-teal.jpg" alt="" width="260" style="max-width: 260px; border-radius: 8px;"></a>
                                           </td>
                                        </tr>
                                        <tr>
@@ -315,7 +336,8 @@
                                     <table class="content" style="border-spacing: 0; text-align: center;" role="presentation">
                                        <tr>
                                           <td>
-                                             <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/j852yw3/teal-circle.png" alt="" width="160" style="max-width: 160px;" border="0"></a>
+                                             <a href="https://example.com" target="_blank"><img class="one-third-col-img"
+                                                src="https://i.ibb.co/j852yw3/teal-circle.png" alt="" width="160" style="max-width: 160px;" border="0"></a>
                                           </td>
                                        </tr>
                                     </table>
@@ -366,7 +388,7 @@
                <td style="padding: 30px 0 40px 0;">
                   <table wigth="100%" style="border-spacing: 0;" role="presentation">
                      <tr>
-                        <td class="three-columns" style="padding: 0;font-size: 0; text-align: center;">
+                        <td class="three-columns" style="padding: 50px 0;font-size: 0; text-align: center;">
 
                            <!--[if (gte mso 9)|(IE)]>
                               <table width="100%" style="border-spacing: 0;" role="presentation">
@@ -607,53 +629,18 @@
 <!-- END FOUR COLUMNS -->
 
 <!-- START GREEN BORDER -->
-<tr>
-   <td style="padding: 0;">
-      <table width="100%" style="border-spacing: 0;" role="presentation">
-         <tr>
-            <td height="3" style="background-color: #21c6b8;"></td>
-         </tr>
-      </table>
-   </td>
-</tr>
-<!-- END GREEN BORDER -->
-
-<!-- START FOOTER -->
             <tr>
                <td style="padding: 0;">
-                  <table width="100%" style="border-spacing: 0;background-color: #565656;" role="presentation">
-
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
                      <tr>
-                        <td style="padding: 60px 0 50px 0;color: #ffffff;text-align: center;font-size: 16px;">
-                        
-                           <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/rdjLnjG/html-email-white.png" alt="" width="210"></a>
-                           <p style="font-family: 'Lato';">
-                              Responsive HTML Email
-                           </p>
-                           <p style="font-family: 'Lato';">
-                              123 Street Road, City, State 5555
-                           </p>
-                           <p style="font-family: 'Lato';"><a href="mailto:email@example.com" style="text-decoration: none;color: #ebf5fa;">
-                              email@example.com
-                           </a>
-                           </p>
-                           <p style="font-family: 'Lato';"><a href="tel:18008888888" style="text-decoration: none;color: #ebf5fa;">
-                              1-800-888-8888
-                           </a>
-                           </p>
-                           <p style="font-family: 'Lato';"><a href="https://example.com" style="text-decoration: none;color: #ebf5fa;font-weight: bold;">
-                              UNSUBSCRIBE
-                           </a>
-                           </p>
-
-                        </td>
+                        <td height="3" style="background-color: #21c6b8;"></td>
                      </tr>
-                        <tr>
-                           <td height="4" style="background-color: #21c6b8;"></td>
-                        </tr>
                   </table>
                </td>
             </tr>
+<!-- END GREEN BORDER -->
+
+<!-- START FOOTER -->
 <!-- END FOOTER -->
 
          </table>
@@ -668,5 +655,4 @@
    </center>   
 
 </body>
-</html>
 </html>
